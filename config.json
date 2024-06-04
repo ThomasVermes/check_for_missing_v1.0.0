@@ -1,0 +1,21 @@
+{
+	"name": "Check for missing",
+	"description": "Check for missing values within a group of variables tagged with the same parameter <code>@CHECKMISSING=parameter</code>.<br>The parameter is the field name of the <code>[variable]</code> that will be hidden if no empty values are found.",
+	"namespace": "USBTOV\\checkmissing",
+	"authors": [
+		{
+			"name": "Thomas Vermes",
+			"email": "thomas.vermes@usb.ch",
+			"institution": "University Hospital Basel"
+		}
+	],
+	"framework-version": 14,
+	"system-settings": [],
+	"action-tags": [
+		{
+			"tag": "@CHECKMISSING",
+			"description": "Tag variables to check for missing values.<br>Specify the variable you wish to hide as the parameter.<br>The field specified by the parameter will be hidden with <code>@HIDDEN</code> only if all variables with the same parameter are not empty.<br>Example: <code>@CHECKMISSING=field_to_hide</code>"
+		}
+	],
+	"project-settings": []
+}

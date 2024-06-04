@@ -1,0 +1,41 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Report dashboard views log
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Thomas
+    family-names: Vermes
+    email: thomas.vermes@usb.ch
+  - name: University Hospital Basel
+    address: Spitalstrasse 21
+    city: Basel
+    country: CH
+    post-code: '4031'
+  - name: >-
+      University Hospital Basel - Orthopaedics and
+      traumatology
+    address: Spitalstrasse 21
+    city: Basel
+    country: CH
+    post-code: '4031'
+    website: >-
+      https://www.unispital-basel.ch/en/orthopaedie-traumatologie
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/ThomasVermes/checkmissing
+abstract: >-
+  Check for missing values within a group of variables tagged with the same parameter @CHECKMISSING=parameter. The parameter is the field name of the [variable] that will be hidden if no empty values are found.
+keywords:
+  - redcap
+  - external module
+  - report
+  - dashboard
+  - log
+license: MIT
+version: v1.0.0
