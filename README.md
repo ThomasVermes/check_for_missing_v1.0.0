@@ -11,7 +11,7 @@ This module hides (with the action tag @HIDDEN) a variable [varX] (i.e., a descr
 
 **Notes:**
  * The module look for the variables tagged with @CHECKMISSING which are available in the current page. By multi-page survey only variables in the current section will be "checked for missing values"
- * @READONLY fields are considered as non missing. 
+ * @READONLY fields are considered as not-missing. 
 
 **Codebook:**
 | Variable / Field Name | Field Label                             | Field Note                                                        | Field Attributes (Field Type, Validation, Choices, Calculations, etc.) |
